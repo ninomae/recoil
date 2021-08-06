@@ -29,9 +29,10 @@ Recoilにおけるデータストア
 Atomから取得したものを加工する
 
 ## TODO
+チュートリアル通り
 
 ## 非同期処理
-
+https://recoiljs.org/docs/guides/asynchronous-data-queries
 
 ## 参考
 https://ics.media/entry/210224/
