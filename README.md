@@ -34,6 +34,9 @@ Atomから取得したものを加工する
 ## 非同期処理
 https://recoiljs.org/docs/guides/asynchronous-data-queries
 
+ランダムユーザー取得
+https://randomuser.me/api/
+
 ## 参考
 https://ics.media/entry/210224/
 
