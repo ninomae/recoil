@@ -3,7 +3,7 @@ import TodoItemCreator from "./TodoItemCreator";
 import TodoItem from "./TodoItem";
 import filteredTodoListState from "./recoil/todo/filteredTodoListState";
 import TodoListFilters from "./TodoListFilters";
-import TodoListStats from "./recoil/TodoListStats";
+import TodoListStats from "./TodoListStats";
 
 function TodoList() {
   const todoList = useRecoilValue(filteredTodoListState);

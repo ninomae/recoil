@@ -1,5 +1,5 @@
 import React from "react";
-import todoListStatsState from "./todo/todoListStatsState";
+import todoListStatsState from "./recoil/todo/todoListStatsState";
 import { useRecoilValue } from "recoil";
 
 const TodoListStats: React.VFC = (_) => {
