@@ -9,4 +9,5 @@ export enum RecoilSelectorStateKeys {
   FILTERED_TODO_LIST_STATE = "filteredTodoListState",
   TODO_LIST_FILTER_STATE = "todoListFilterState",
   USER_ASYNC_STATE = "userAsyncState",
+  USER_FULL_NAME_STATE = "userFullNameState",
 }

@@ -1,17 +1,13 @@
 import { atom, selector } from "recoil";
 import { RecoilAtomKeys, RecoilSelectorStateKeys } from "../RecoilKeys";
-import { Response, User } from "./response";
-
-const userDefault: User = {
-  name: { first: "", last: "" },
-};
+import { User } from "./response";
 
 const withApi = selector<User>({
   key: RecoilSelectorStateKeys.USER_ASYNC_STATE,
   get: async (_) => {
     const response = await fetch("https://randomuser.me/api/");
-    const { data } = await response.json();
-    return (data as Response).results[0];
+    const { results } = await response.json();
+    return results[0];
   },
 });
 
