@@ -4,6 +4,10 @@ export interface Response {
 
 export interface User {
   name: Name;
+  id: {
+    name: string;
+    value: string;
+  };
 }
 
 export interface Name {
