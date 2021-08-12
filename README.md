@@ -37,6 +37,9 @@ https://recoiljs.org/docs/guides/asynchronous-data-queries
 ランダムユーザー取得
 https://randomuser.me/api/
 
+## jotai
+
+
 ## 参考
 https://ics.media/entry/210224/
 

@@ -50,6 +50,10 @@ const userState = selector<User>({
       set(loginState, 0);
     }
   },
+  cachePolicy_UNSTABLE: {
+    // Only store the most recent set of dependencies and their values
+    eviction: "most-recent",
+  },
 });
 
 export default userState;

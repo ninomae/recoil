@@ -23,13 +23,11 @@ const TodoItem: React.VFC<{ item: Todo }> = ({ item }) => {
       ...item,
       isComplete: !item.isComplete,
     });
-
     setTodoList(newList);
   };
 
   const deleteItem = () => {
     const newList = removeItemAtIndex(todoList, index);
-
     setTodoList(newList);
   };
 
